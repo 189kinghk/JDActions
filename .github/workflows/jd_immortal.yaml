@@ -6,7 +6,7 @@ name: 神仙书院(截止2021.2.5)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 0,4 * * *"
+        - cron: "0 20 * * *"
     watch:
         types: [started]
     repository_dispatch:
