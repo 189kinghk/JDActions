@@ -6,7 +6,7 @@ name: 神仙书院答题(截止2021.2.5)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "10 16 * * *"
+        - cron: "20 7,16,20 * * *"
     watch:
         types: [started]
     repository_dispatch:
